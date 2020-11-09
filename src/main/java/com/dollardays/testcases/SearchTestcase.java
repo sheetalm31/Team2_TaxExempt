@@ -4,8 +4,10 @@ import java.io.UnsupportedEncodingException;
 import java.security.GeneralSecurityException;
 import java.util.Hashtable;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.dollardays.commons.Base64;
 import com.dollardays.listners.ExtentTestManager;
@@ -19,8 +21,10 @@ public class SearchTestcase extends BaseTest{
 	
 	@DDDataProvider(datafile = "testdata/testdata1.xlsx", sheetName = "Sheet1",  testcaseID = "TC1", runmode = "Yes")
 	@Test(dataProvider = "dd-dataprovider", dataProviderClass = TestUtil.class)
+	
     public void TC_01_searchWithValidDta(Hashtable<String, String> datatable) throws InterruptedException, UnsupportedEncodingException, GeneralSecurityException{
 		
+		ExtentTest Obj = ExtentTestManager.getTest();
 		ExtentTestManager.getTest().log(Status.PASS, "Testcase 1 : Verify Search functionality");
 		LoginPage loginPage = new LoginPage(driver);
 		ExtentTestManager.getTest().log(Status.PASS, "Step 1  : Login with Valid credentials");
@@ -79,7 +83,7 @@ public class SearchTestcase extends BaseTest{
 		ExtentTestManager.getTest().log(Status.PASS, "Testcase 3 : Validate Product Navigation Pages ");
 		LoginPage loginPage = new LoginPage(driver);
 		ExtentTestManager.getTest().log(Status.PASS, "Step 1  : Login with Valid credentials");
-		//loginPage.login(datatable.get("UserName"), Base64.decrypt(datatable.get("Password")));
+		loginPage.login(datatable.get("UserName"), Base64.decrypt(datatable.get("Password")));
 		loginPage.invokeLogin();
 		Thread.sleep(1000);
 		SearchPage searchpage = new SearchPage(driver);
