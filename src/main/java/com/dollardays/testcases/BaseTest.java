@@ -103,7 +103,7 @@ public class BaseTest extends MT {
 		try {
 
 			driver.get(props.getProperty("env.baseUrl"));
-
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -112,6 +112,8 @@ public class BaseTest extends MT {
 
 	@BeforeMethod
 	public void setUpBrowser() throws Exception {
+		
+		
 
 		readPropertyData();
 		openBrowser();

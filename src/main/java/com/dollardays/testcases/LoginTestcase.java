@@ -26,10 +26,10 @@ public class LoginTestcase extends BaseTest{
 		LoginPage loginPage = new LoginPage(driver);
 		loginPage.login(datatable.get("UserName"), Base64.decrypt(datatable.get("Password")));		
 		VideoRecorder_utlity.stopRecord();//End point of video recording
-		
+	
 	}
 	
-	/* @DDDataProvider(datafile = "testdata/testdata.json", runmode = "", sheetName = "", testcaseID = "")
+	 @DDDataProvider(datafile = "testdata/testdata.json", runmode = "", sheetName = "", testcaseID = "")
 	@Test(dataProvider = "dd-dataprovider", dataProviderClass = JsonReader.class)
 	public void invokeLogin1(Map<String, String> datatable) throws Exception{
 		System.out.println("====>"+ datatable);
@@ -37,7 +37,7 @@ public class LoginTestcase extends BaseTest{
 		
 		System.out.println("Password====>"+ Base64.decrypt(datatable.get("password")));
 		
-	}*/
+	}
 	
 }
 

@@ -9,7 +9,8 @@
 	import org.openqa.selenium.WebDriver;
 	import org.openqa.selenium.WebElement;
 	import org.openqa.selenium.support.ui.Select;
-	import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 	import com.aventstack.extentreports.ExtentTest;
 	import com.aventstack.extentreports.Status;
@@ -58,7 +59,13 @@
 		    String viewvalue =datatable.get("ViewValue");
 		    View.selectByVisibleText(viewvalue);
 		    ExtentTestManager.getTest().log(Status.PASS, "Step 6  : Successfully Clicked on " + datatable.get("ViewValue")+ "from the view dropdown");
+		   
+		   
+		    ExtentTestManager.getTest().log(Status.PASS, "Step 7 : Total No.of items displayed in the current page are: " +searchpage.getPageItemsCount().size());
 		    
+		   
+		  //  Assert.assertEquals(searchpage.getPageItemsCount().size(), Integer.parseInt(datatable.get("ViewValue")),"Total No.of items displayed in first page not equals to the Viewby option selected");
+			
 		   		   
 		 
 		     Thread.sleep(500);

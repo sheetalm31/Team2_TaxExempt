@@ -20,7 +20,8 @@ public class LoginPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(xpath = "//a[normalize-space(.)='Sign in']")
+	//@FindBy(xpath = "//a[normalize-space(.)='Sign in']")
+	@FindBy(xpath= "//*[@id=\"aspnetForm\"]/header/div/div/div/div[3]/div/ul/li[1]/a/span")
 	private WebElement signIn;
 
 	public WebElement getSignIn() {
@@ -56,7 +57,7 @@ public class LoginPage {
 	}
 	
 	//@FindBy(xpath = "//*[@id='header-main']/div/div/div[3]/div/ul/li[1]/a")
-	@FindBy(xpath="//*[@id=\"aspnetForm\"]/header/div/div/div/div[3]/div/ul/li[1]/a/span")
+	@FindBy(xpath = "//*[@id=\"aspnetForm\"]/header/div/div/div/div[3]/div/ul/li[1]/a/img")
 	private WebElement userDrodown;
 
 	public WebElement getUserDrodown() {

@@ -1,421 +1,420 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Parallel Class Runs" duration-ms="250880" started-at="2020-10-05T17:09:46 EDT" finished-at="2020-10-05T17:13:57 EDT">
+  <suite started-at="2020-11-10T07:35:43 EST" name="Suite" finished-at="2020-11-10T07:45:28 EST" duration-ms="585330">
     <groups>
     </groups>
-    <test name="Dollar Days Test" duration-ms="250880" started-at="2020-10-05T17:09:46 EDT" finished-at="2020-10-05T17:13:57 EDT">
-      <class name="com.dollardays.testcases.Team2TaxExemptTestCase">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="beforeClass" is-config="true" duration-ms="12" started-at="2020-10-05T17:09:46 EDT" finished-at="2020-10-05T17:09:46 EDT">
+    <test started-at="2020-11-10T07:35:43 EST" name="Dollar Days Test" finished-at="2020-11-10T07:45:28 EST" duration-ms="585330">
+      <class name="com.dollardays.testcases.SortandViewTestcases">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:35:43 EST" name="beforeClass" finished-at="2020-11-10T07:35:43 EST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="13065" started-at="2020-10-05T17:09:47 EDT" finished-at="2020-10-05T17:10:00 EDT">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:35:44 EST" name="setUpBrowser" finished-at="2020-11-10T07:35:55 EST" duration-ms="10541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="19283" started-at="2020-10-05T17:10:00 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:10:20 EDT">
+        <test-method signature="TC_SortandViewByoptions(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:35:55 EST" name="TC_SortandViewByoptions" data-provider="dd-dataprovider" finished-at="2020-11-10T07:36:10 EST" duration-ms="15711" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{TaxID=, TestCase=Tax Exempt all required  fields empty , ExpiryDate=, filePath=, TCID=TC1, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=, DocumentName=xyz, TestScenario=Negative, State=, =}]]>
+                <![CDATA[{TestCase=SortBy with BestMatch option & View option 12, ProductName=School Backpack, TCID=TC1, SheetName=SortandView, ViewValue=12, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, SortValue=Best Match}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="992" started-at="2020-10-05T17:10:20 EDT" finished-at="2020-10-05T17:10:21 EDT">
+        </test-method> <!-- TC_SortandViewByoptions -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:36:10 EST" name="quit" finished-at="2020-11-10T07:36:12 EST" duration-ms="1576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="9045" started-at="2020-10-05T17:10:21 EDT" finished-at="2020-10-05T17:10:30 EDT">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:36:12 EST" name="setUpBrowser" finished-at="2020-11-10T07:36:21 EST" duration-ms="9346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="17561" started-at="2020-10-05T17:10:30 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:10:47 EDT">
+        <test-method signature="TC_SortandViewByoptions(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:36:21 EST" name="TC_SortandViewByoptions" data-provider="dd-dataprovider" finished-at="2020-11-10T07:36:34 EST" duration-ms="12850" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{TaxID=0.0, TestCase=Except TaxID all required fields empty, ExpiryDate=, filePath=, TCID=TC2, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=, DocumentName=xyz, TestScenario=Negative, State=, =}]]>
+                <![CDATA[{TestCase=SortBy with Best Match option & View option 24, ProductName=School Backpack, TCID=TC2, SheetName=SortandView, ViewValue=24, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, SortValue=Best Match}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="882" started-at="2020-10-05T17:10:47 EDT" finished-at="2020-10-05T17:10:48 EDT">
+        </test-method> <!-- TC_SortandViewByoptions -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:36:34 EST" name="quit" finished-at="2020-11-10T07:36:36 EST" duration-ms="1459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="8647" started-at="2020-10-05T17:10:48 EDT" finished-at="2020-10-05T17:10:57 EDT">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:36:36 EST" name="setUpBrowser" finished-at="2020-11-10T07:36:46 EST" duration-ms="10704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="17335" started-at="2020-10-05T17:10:57 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:11:14 EDT">
+        <test-method signature="TC_SortandViewByoptions(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:36:46 EST" name="TC_SortandViewByoptions" data-provider="dd-dataprovider" finished-at="2020-11-10T07:37:02 EST" duration-ms="15229" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{TaxID=, TestCase=Except State all required fields empty, ExpiryDate=, filePath=, TCID=TC3, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=, DocumentName=xyz, TestScenario=Negative, State=Florida, =}]]>
+                <![CDATA[{TestCase=SortBy with Best Match option & View option 48, ProductName=School Backpack, TCID=TC3, SheetName=SortandView, ViewValue=48, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, SortValue=Best Match}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="779" started-at="2020-10-05T17:11:14 EDT" finished-at="2020-10-05T17:11:15 EDT">
+        </test-method> <!-- TC_SortandViewByoptions -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:37:02 EST" name="quit" finished-at="2020-11-10T07:37:03 EST" duration-ms="1415" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="8456" started-at="2020-10-05T17:11:15 EDT" finished-at="2020-10-05T17:11:23 EDT">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:37:03 EST" name="setUpBrowser" finished-at="2020-11-10T07:37:12 EST" duration-ms="9361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="16985" started-at="2020-10-05T17:11:23 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:11:40 EDT">
+        <test-method signature="TC_SortandViewByoptions(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:37:12 EST" name="TC_SortandViewByoptions" data-provider="dd-dataprovider" finished-at="2020-11-10T07:37:30 EST" duration-ms="17557" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{TaxID=1.0, TestCase=Except TaxID and State all required fields empty , ExpiryDate=, filePath=, TCID=TC4, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=, DocumentName=xyz, TestScenario=Negative, State=Florida, =}]]>
+                <![CDATA[{TestCase=SortBy with Popularity option & View option 12, ProductName=School Backpack, TCID=TC4, SheetName=SortandView, ViewValue=12, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, SortValue=Popularity}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="802" started-at="2020-10-05T17:11:40 EDT" finished-at="2020-10-05T17:11:41 EDT">
+        </test-method> <!-- TC_SortandViewByoptions -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:37:30 EST" name="quit" finished-at="2020-11-10T07:37:31 EST" duration-ms="1252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="9286" started-at="2020-10-05T17:11:41 EDT" finished-at="2020-10-05T17:11:51 EDT">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:37:31 EST" name="setUpBrowser" finished-at="2020-11-10T07:37:41 EST" duration-ms="9664" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="17160" started-at="2020-10-05T17:11:51 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:12:08 EDT">
+        <test-method signature="TC_SortandViewByoptions(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:37:41 EST" name="TC_SortandViewByoptions" data-provider="dd-dataprovider" finished-at="2020-11-10T07:37:57 EST" duration-ms="16214" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{TaxID=, TestCase=Except expiry date all required fields empty, ExpiryDate=08/19/2022, filePath=, TCID=TC5, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=, DocumentName=xyz, TestScenario=Negative, State=, =}]]>
+                <![CDATA[{TestCase=SortBy with Popularity option & View option 24, ProductName=School Backpack, TCID=TC5, SheetName=SortandView, ViewValue=24, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, SortValue=Popularity}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="875" started-at="2020-10-05T17:12:08 EDT" finished-at="2020-10-05T17:12:09 EDT">
+        </test-method> <!-- TC_SortandViewByoptions -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:37:57 EST" name="quit" finished-at="2020-11-10T07:37:58 EST" duration-ms="1186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="9746" started-at="2020-10-05T17:12:09 EDT" finished-at="2020-10-05T17:12:18 EDT">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:37:58 EST" name="setUpBrowser" finished-at="2020-11-10T07:38:08 EST" duration-ms="9784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="16927" started-at="2020-10-05T17:12:18 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:12:35 EDT">
+        <test-method signature="TC_SortandViewByoptions(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:38:08 EST" name="TC_SortandViewByoptions" data-provider="dd-dataprovider" finished-at="2020-11-10T07:38:26 EST" duration-ms="17951" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{TaxID=, TestCase=State and TaxId empty, ExpiryDate=09/19/2022, filePath=SampleJpg.jpg, TCID=TC6, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=correct, DocumentName=xyz, TestScenario=Negative, State=, =}]]>
+                <![CDATA[{TestCase=SortBy with Popularity option & View option 48, ProductName=School Backpack, TCID=TC6, SheetName=SortandView, ViewValue=48, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, SortValue=Popularity}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="761" started-at="2020-10-05T17:12:35 EDT" finished-at="2020-10-05T17:12:36 EDT">
+        </test-method> <!-- TC_SortandViewByoptions -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:38:26 EST" name="quit" finished-at="2020-11-10T07:38:27 EST" duration-ms="1221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="8337" started-at="2020-10-05T17:12:36 EDT" finished-at="2020-10-05T17:12:44 EDT">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:38:27 EST" name="setUpBrowser" finished-at="2020-11-10T07:38:37 EST" duration-ms="9312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="16261" started-at="2020-10-05T17:12:44 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:13:01 EDT">
+        <test-method signature="TC_SortandViewByoptions(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:38:37 EST" name="TC_SortandViewByoptions" data-provider="dd-dataprovider" finished-at="2020-11-10T07:38:56 EST" duration-ms="19301" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{TaxID=2.0, TestCase=Expiry date and State are empty, ExpiryDate=, filePath=SampleJpg.jpg, TCID=TC7, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=correct, DocumentName=xyz, TestScenario=Negative, State=, =}]]>
+                <![CDATA[{TestCase=SortBy with NewestFirst option & View option 12, ProductName=School Backpack, TCID=TC7, SheetName=SortandView, ViewValue=12, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, SortValue=Newest First}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="850" started-at="2020-10-05T17:13:01 EDT" finished-at="2020-10-05T17:13:01 EDT">
+        </test-method> <!-- TC_SortandViewByoptions -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:38:56 EST" name="quit" finished-at="2020-11-10T07:38:57 EST" duration-ms="1273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="8099" started-at="2020-10-05T17:13:01 EDT" finished-at="2020-10-05T17:13:10 EDT">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:38:57 EST" name="setUpBrowser" finished-at="2020-11-10T07:39:06 EST" duration-ms="9332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="21539" started-at="2020-10-05T17:13:10 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:13:31 EDT">
+        <test-method signature="TC_SortandViewByoptions(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:39:06 EST" name="TC_SortandViewByoptions" data-provider="dd-dataprovider" finished-at="2020-11-10T07:39:21 EST" duration-ms="14702" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{TaxID=3.0, TestCase=Tax exempt form all required fields are filled, ExpiryDate=08/19/2022, filePath=SampleJpg.jpg, TCID=TC8, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=correct, DocumentName=xyz, TestScenario=Positive, State=Iowa, =}]]>
+                <![CDATA[{TestCase=SortBy with NewestFirst option & View option 24, ProductName=School Backpack, TCID=TC8, SheetName=SortandView, ViewValue=24, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, SortValue=Newest First}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="810" started-at="2020-10-05T17:13:31 EDT" finished-at="2020-10-05T17:13:32 EDT">
+        </test-method> <!-- TC_SortandViewByoptions -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:39:21 EST" name="quit" finished-at="2020-11-10T07:39:22 EST" duration-ms="1181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="setUpBrowser" is-config="true" duration-ms="8139" started-at="2020-10-05T17:13:32 EDT" finished-at="2020-10-05T17:13:40 EDT">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:39:22 EST" name="setUpBrowser" finished-at="2020-11-10T07:39:32 EST" duration-ms="9722" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="ValidateTaxExemptRequiredFields(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="ValidateTaxExemptRequiredFields" duration-ms="15652" started-at="2020-10-05T17:13:40 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:13:56 EDT">
+        <test-method signature="TC_SortandViewByoptions(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:39:32 EST" name="TC_SortandViewByoptions" data-provider="dd-dataprovider" finished-at="2020-11-10T07:39:49 EST" duration-ms="17090" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{TaxID=, TestCase=validate wrong file type, ExpiryDate=, filePath=TaxCertificate for DollarDays.txt, TCID=TC9, SheetName=TaxExempt, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, FileType=wrong, DocumentName=xyz, TestScenario=Negative, State=Florida, =}]]>
+                <![CDATA[{TestCase=SortBy with NewestFirst option & View option 48, ProductName=School Backpack, TCID=TC9, SheetName=SortandView, ViewValue=48, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, SortValue=Newest First}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateTaxExemptRequiredFields -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="quit" is-config="true" duration-ms="798" started-at="2020-10-05T17:13:56 EDT" finished-at="2020-10-05T17:13:57 EDT">
+        </test-method> <!-- TC_SortandViewByoptions -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:39:49 EST" name="quit" finished-at="2020-11-10T07:39:50 EST" duration-ms="1243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.dollardays.testcases.Team2TaxExemptTestCase@f0f2775]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-10-05T17:13:57 EDT" finished-at="2020-10-05T17:13:57 EDT">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:39:50 EST" name="setUpBrowser" finished-at="2020-11-10T07:40:00 EST" duration-ms="9222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="TC_SortandViewByoptions(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:40:00 EST" name="TC_SortandViewByoptions" data-provider="dd-dataprovider" finished-at="2020-11-10T07:40:18 EST" duration-ms="18586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=SortBy with Price per Unit LtoH option & View option 12, ProductName=School Backpack, TCID=TC10, SheetName=SortandView, ViewValue=12, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, SortValue=Price per Unit (Low to high)}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SortandViewByoptions -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:40:18 EST" name="quit" finished-at="2020-11-10T07:40:20 EST" duration-ms="1631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:40:20 EST" name="setUpBrowser" finished-at="2020-11-10T07:40:29 EST" duration-ms="9608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="TC_SortandViewByoptions(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:40:29 EST" name="TC_SortandViewByoptions" data-provider="dd-dataprovider" finished-at="2020-11-10T07:40:46 EST" duration-ms="16190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=SortBy with Price per Unit LtoH option & View option 24, ProductName=School Backpack, TCID=TC11, SheetName=SortandView, ViewValue=24, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, SortValue=Price per Unit (Low to high)}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SortandViewByoptions -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:40:46 EST" name="quit" finished-at="2020-11-10T07:40:47 EST" duration-ms="1346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:40:47 EST" name="setUpBrowser" finished-at="2020-11-10T07:40:56 EST" duration-ms="9213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="TC_SortandViewByoptions(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:40:56 EST" name="TC_SortandViewByoptions" data-provider="dd-dataprovider" finished-at="2020-11-10T07:41:14 EST" duration-ms="18012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=SortBy with Price per Unit LtoH option & View option 48, ProductName=School Backpack, TCID=TC12, SheetName=SortandView, ViewValue=48, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, SortValue=Price per Unit (Low to high)}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SortandViewByoptions -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:41:14 EST" name="quit" finished-at="2020-11-10T07:41:15 EST" duration-ms="1272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:41:15 EST" name="setUpBrowser" finished-at="2020-11-10T07:41:25 EST" duration-ms="9297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="TC_SortandViewByoptions(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:41:25 EST" name="TC_SortandViewByoptions" data-provider="dd-dataprovider" finished-at="2020-11-10T07:41:43 EST" duration-ms="18251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=SortBy with Price per Unit HtoL option & View option 12, ProductName=School Backpack, TCID=TC13, SheetName=SortandView, ViewValue=12, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, SortValue=Price per Unit (High to low)}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SortandViewByoptions -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:41:43 EST" name="quit" finished-at="2020-11-10T07:41:44 EST" duration-ms="1224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:41:44 EST" name="setUpBrowser" finished-at="2020-11-10T07:41:55 EST" duration-ms="10345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="TC_SortandViewByoptions(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:41:55 EST" name="TC_SortandViewByoptions" data-provider="dd-dataprovider" finished-at="2020-11-10T07:42:10 EST" duration-ms="15503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=SortBy with Price per Unit HtoL option & View option 24, ProductName=School Backpack, TCID=TC14, SheetName=SortandView, ViewValue=24, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, SortValue=Price per Unit (High to low)}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SortandViewByoptions -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:42:10 EST" name="quit" finished-at="2020-11-10T07:42:11 EST" duration-ms="1222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:42:11 EST" name="setUpBrowser" finished-at="2020-11-10T07:42:22 EST" duration-ms="10521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="TC_SortandViewByoptions(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:42:22 EST" name="TC_SortandViewByoptions" data-provider="dd-dataprovider" finished-at="2020-11-10T07:42:40 EST" duration-ms="17657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=SortBy with Price per Unit HtoL option & View option 48, ProductName=School Backpack, TCID=TC15, SheetName=SortandView, ViewValue=48, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, SortValue=Price per Unit (High to low)}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SortandViewByoptions -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:42:40 EST" name="quit" finished-at="2020-11-10T07:42:41 EST" duration-ms="1309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:42:41 EST" name="setUpBrowser" finished-at="2020-11-10T07:42:50 EST" duration-ms="9473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="TC_SortandViewByoptions(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:42:50 EST" name="TC_SortandViewByoptions" data-provider="dd-dataprovider" finished-at="2020-11-10T07:43:07 EST" duration-ms="17161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=SortBy with Alphabetically & View option 12, ProductName=School Backpack, TCID=TC16, SheetName=SortandView, ViewValue=12, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, SortValue=Alphabetically by Name}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SortandViewByoptions -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:43:07 EST" name="quit" finished-at="2020-11-10T07:43:09 EST" duration-ms="1225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:43:09 EST" name="setUpBrowser" finished-at="2020-11-10T07:43:19 EST" duration-ms="9919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="TC_SortandViewByoptions(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:43:19 EST" name="TC_SortandViewByoptions" data-provider="dd-dataprovider" finished-at="2020-11-10T07:43:34 EST" duration-ms="15309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=SortBy with Alphabetically & View option 24, ProductName=School Backpack, TCID=TC17, SheetName=SortandView, ViewValue=24, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, SortValue=Alphabetically by Name}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SortandViewByoptions -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:43:34 EST" name="quit" finished-at="2020-11-10T07:43:35 EST" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:43:35 EST" name="setUpBrowser" finished-at="2020-11-10T07:43:44 EST" duration-ms="9226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="TC_SortandViewByoptions(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:43:44 EST" name="TC_SortandViewByoptions" data-provider="dd-dataprovider" finished-at="2020-11-10T07:44:02 EST" duration-ms="17539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=SortBy with Alphabetically & View option 48, ProductName=School Backpack, TCID=TC18, SheetName=SortandView, ViewValue=48, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, SortValue=Alphabetically by Name}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SortandViewByoptions -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:44:02 EST" name="quit" finished-at="2020-11-10T07:44:03 EST" duration-ms="1232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:44:03 EST" name="setUpBrowser" finished-at="2020-11-10T07:44:13 EST" duration-ms="9636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="TC_SortandViewByoptions(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:44:13 EST" name="TC_SortandViewByoptions" data-provider="dd-dataprovider" finished-at="2020-11-10T07:44:31 EST" duration-ms="17738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=SortBy with CaseQuantity & View option 12, ProductName=School Backpack, TCID=TC19, SheetName=SortandView, ViewValue=12, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, SortValue=Case Quantity}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SortandViewByoptions -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:44:31 EST" name="quit" finished-at="2020-11-10T07:44:32 EST" duration-ms="1252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:44:32 EST" name="setUpBrowser" finished-at="2020-11-10T07:44:42 EST" duration-ms="9796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="TC_SortandViewByoptions(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:44:42 EST" name="TC_SortandViewByoptions" data-provider="dd-dataprovider" finished-at="2020-11-10T07:44:57 EST" duration-ms="15652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=SortBy with CaseQuantity & View option 24, ProductName=School Backpack, TCID=TC20, SheetName=SortandView, ViewValue=24, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, SortValue=Case Quantity}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SortandViewByoptions -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:44:57 EST" name="quit" finished-at="2020-11-10T07:44:58 EST" duration-ms="1231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:44:58 EST" name="setUpBrowser" finished-at="2020-11-10T07:45:08 EST" duration-ms="9990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="TC_SortandViewByoptions(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:45:08 EST" name="TC_SortandViewByoptions" data-provider="dd-dataprovider" finished-at="2020-11-10T07:45:27 EST" duration-ms="18271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=SortBy with CaseQuantity & View option 48, ProductName=School Backpack, TCID=TC21, SheetName=SortandView, ViewValue=48, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, SortValue=Case Quantity}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SortandViewByoptions -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:45:27 EST" name="quit" finished-at="2020-11-10T07:45:28 EST" duration-ms="1479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.dollardays.testcases.SortandViewTestcases@5aa9e4eb]" started-at="2020-11-10T07:45:28 EST" name="afterClass" finished-at="2020-11-10T07:45:28 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.dollardays.testcases.Team2TaxExemptTestCase -->
-      <class name="com.dollardays.testcases.DefaultPaymentMethodScript">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="beforeClass" is-config="true" duration-ms="12" started-at="2020-10-05T17:09:46 EDT" finished-at="2020-10-05T17:09:46 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="13960" started-at="2020-10-05T17:09:47 EDT" finished-at="2020-10-05T17:10:01 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="VerifyDCEditClick(java.util.Hashtable)[pri:1, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifyDCEditClick" duration-ms="16765" started-at="2020-10-05T17:10:01 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:10:18 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TestCase=VerifyDCEditClick, Zip=98002, CCExpirymonth=05-May, TCID=TC1, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=999, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=True, =}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyDCEditClick -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="764" started-at="2020-10-05T17:10:18 EDT" finished-at="2020-10-05T17:10:19 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="8533" started-at="2020-10-05T17:10:19 EDT" finished-at="2020-10-05T17:10:28 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="VerifyCardVisible(java.util.Hashtable)[pri:2, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifyCardVisible" duration-ms="16068" started-at="2020-10-05T17:10:28 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:10:44 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TestCase=VerifyCardVisible, Zip=98002, CCExpirymonth=05-May, TCID=TC2, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=999, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=true, =}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyCardVisible -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="811" started-at="2020-10-05T17:10:44 EDT" finished-at="2020-10-05T17:10:45 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="8301" started-at="2020-10-05T17:10:45 EDT" finished-at="2020-10-05T17:10:53 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="VerifyClickAddNewCard(java.util.Hashtable)[pri:3, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifyClickAddNewCard" duration-ms="16318" started-at="2020-10-05T17:10:53 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:11:09 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TestCase=VerifyClickAddNewCard, Zip=98002, CCExpirymonth=05-May, TCID=TC3, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=999, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=false, =}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyClickAddNewCard -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="846" started-at="2020-10-05T17:11:09 EDT" finished-at="2020-10-05T17:11:10 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="8274" started-at="2020-10-05T17:11:10 EDT" finished-at="2020-10-05T17:11:19 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="VerifySetDefaultCard(java.util.Hashtable)[pri:4, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifySetDefaultCard" duration-ms="16429" started-at="2020-10-05T17:11:19 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:11:35 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TestCase=VerifySetDefaultCard, Zip=98002, CCExpirymonth=05-May, TCID=TC4, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=999, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=true, =}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifySetDefaultCard -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="894" started-at="2020-10-05T17:11:35 EDT" finished-at="2020-10-05T17:11:36 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="8431" started-at="2020-10-05T17:11:36 EDT" finished-at="2020-10-05T17:11:44 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="VerifyEditOnCard(java.util.Hashtable)[pri:5, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifyEditOnCard" duration-ms="17583" started-at="2020-10-05T17:11:44 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:12:02 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TestCase=VerifyEditOnCard, Zip=98002, CCExpirymonth=05-May, TCID=TC5, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=123, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=True, =}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyEditOnCard -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="868" started-at="2020-10-05T17:12:02 EDT" finished-at="2020-10-05T17:12:03 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="setUpBrowser" is-config="true" duration-ms="8540" started-at="2020-10-05T17:12:03 EDT" finished-at="2020-10-05T17:12:12 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="VerifyDeleteCard(java.util.Hashtable)[pri:6, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="VerifyDeleteCard" duration-ms="22636" started-at="2020-10-05T17:12:12 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:12:34 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TestCase=VerifyEditOnCard, Zip=98002, CCExpirymonth=05-May, TCID=TC5, SheetName=Default_PM, CCHolder=Mr.John, Runmode=Yes, CCExpiryYear=2021, CCV=123, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, City=Newyork, State=Washington, Address1=123 Ave SE, CCNumber=1234123412341234, ExpectedValue=True, =}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyDeleteCard -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="quit" is-config="true" duration-ms="873" started-at="2020-10-05T17:12:34 EDT" finished-at="2020-10-05T17:12:35 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.dollardays.testcases.DefaultPaymentMethodScript@6591f517]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-10-05T17:12:35 EDT" finished-at="2020-10-05T17:12:35 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.dollardays.testcases.DefaultPaymentMethodScript -->
-      <class name="com.dollardays.testcases.EmailPreferencesValidationsTestCase">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="beforeClass" is-config="true" duration-ms="12" started-at="2020-10-05T17:09:46 EDT" finished-at="2020-10-05T17:09:46 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="setUpBrowser" is-config="true" duration-ms="13802" started-at="2020-10-05T17:09:47 EDT" finished-at="2020-10-05T17:10:01 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="emailPreferences_UserEmailAddressValidation(java.util.Hashtable)[pri:1, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="emailPreferences_UserEmailAddressValidation" duration-ms="14222" started-at="2020-10-05T17:10:01 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:10:15 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TestCase=emailPreferences_UserEmailAddressValidation, Password=cGFzc3dvcmQxMjM=, Runmode=Yes, SheetName=EmailPreferences, ExpectedValue=srikanthtesting100@gmail.com, UserName=srikanthtesting100@gmail.com, TCID=TC1, =}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- emailPreferences_UserEmailAddressValidation -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="quit" is-config="true" duration-ms="953" started-at="2020-10-05T17:10:15 EDT" finished-at="2020-10-05T17:10:16 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="setUpBrowser" is-config="true" duration-ms="8265" started-at="2020-10-05T17:10:16 EDT" finished-at="2020-10-05T17:10:25 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="emailPreferences_Checkbox_Validation_AtPageLaunch(java.util.Hashtable)[pri:2, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="emailPreferences_Checkbox_Validation_AtPageLaunch" duration-ms="14697" started-at="2020-10-05T17:10:25 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:10:39 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TestCase=emailPreferences_Checkbox_Validation_AtPageLaunch, Password=cGFzc3dvcmQxMjM=, Runmode=Yes, SheetName=EmailPreferences, ExpectedValue=true, UserName=srikanthtesting100@gmail.com, TCID=TC2, =}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- emailPreferences_Checkbox_Validation_AtPageLaunch -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="quit" is-config="true" duration-ms="839" started-at="2020-10-05T17:10:39 EDT" finished-at="2020-10-05T17:10:40 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="setUpBrowser" is-config="true" duration-ms="8512" started-at="2020-10-05T17:10:40 EDT" finished-at="2020-10-05T17:10:49 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="emailPreferences_checkbox_validation_AtClick(java.util.Hashtable)[pri:3, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="emailPreferences_checkbox_validation_AtClick" duration-ms="33342" started-at="2020-10-05T17:10:49 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:11:22 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TestCase=emailPreferences_checkbox_validation_AtClick, Password=cGFzc3dvcmQxMjM=, Runmode=Yes, SheetName=EmailPreferences, ExpectedValue=false, UserName=srikanthtesting100@gmail.com, TCID=TC3, =}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- emailPreferences_checkbox_validation_AtClick -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="quit" is-config="true" duration-ms="1207" started-at="2020-10-05T17:11:22 EDT" finished-at="2020-10-05T17:11:23 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="setUpBrowser" is-config="true" duration-ms="8756" started-at="2020-10-05T17:11:24 EDT" finished-at="2020-10-05T17:11:33 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="EmailPreferences_LinksValidation(java.util.Hashtable)[pri:4, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="EmailPreferences_LinksValidation" duration-ms="16119" started-at="2020-10-05T17:11:33 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:11:49 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TestCase=EmailPreferences_LinksValidation, Password=cGFzc3dvcmQxMjM=, Runmode=Yes, SheetName=EmailPreferences, ExpectedValue=Policies - DollarDays, UserName=srikanthtesting100@gmail.com, TCID=TC4, =}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EmailPreferences_LinksValidation -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="quit" is-config="true" duration-ms="1153" started-at="2020-10-05T17:11:49 EDT" finished-at="2020-10-05T17:11:50 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="setUpBrowser" is-config="true" duration-ms="9060" started-at="2020-10-05T17:11:50 EDT" finished-at="2020-10-05T17:11:59 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="termAndConditionsPage_LinksValidation(java.util.Hashtable)[pri:5, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="termAndConditionsPage_LinksValidation" duration-ms="21716" started-at="2020-10-05T17:11:59 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T17:12:21 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{TestCase=termAndConditionsPage_LinksValidation, Password=cGFzc3dvcmQxMjM=, Runmode=Yes, SheetName=EmailPreferences, ExpectedValue=, UserName=srikanthtesting100@gmail.com, TCID=TC5, =}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- termAndConditionsPage_LinksValidation -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="quit" is-config="true" duration-ms="834" started-at="2020-10-05T17:12:21 EDT" finished-at="2020-10-05T17:12:22 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.dollardays.testcases.EmailPreferencesValidationsTestCase@5a4aa2f2]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-10-05T17:12:22 EDT" finished-at="2020-10-05T17:12:22 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.dollardays.testcases.EmailPreferencesValidationsTestCase -->
+      </class> <!-- com.dollardays.testcases.SortandViewTestcases -->
     </test> <!-- Dollar Days Test -->
-  </suite> <!-- Parallel Class Runs -->
+  </suite> <!-- Suite -->
 </testng-results>
