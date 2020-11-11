@@ -48,12 +48,29 @@ public class SearchPage {
 		return submit;
 	}
 	
+	@FindBy(xpath = "//*[@id=\"aspnetForm\"]/div[5]/div/div/ul/li[2]/a")
+	private WebElement displaysearchresult;
+	public WebElement getdisplaysearchresult() {
+		return displaysearchresult;
+	}
 	
-	//@FindBy(xpath = "//*[@id='aspnetForm']/div[7]/div[@class='failed-search-results bd']")
+	
+	
+	@FindBy(xpath = "//*[@id='aspnetForm']/div[7]/div[@class='failed-search-results bd']")
 	private WebElement noDataFoundMsg;
 	public WebElement getnoDataFoundMsg() {
 		return noDataFoundMsg;
 	}
+	
+	
+	@FindBy(xpath= "//*[@id=\"facetrefinements\"]/aside[1]/div/h3/span")
+			private WebElement categorycount;
+	public WebElement getcategorycount() {
+		return categorycount;
+	}
+			
+	
+	
 	
 	@FindAll(@FindBy(xpath = "//div[@class='select-bar pagination-bar']//a[contains(@class,'page-link')]"))
 	private List<WebElement> pageCount;
@@ -112,6 +129,7 @@ public class SearchPage {
 	
 	@FindAll(@FindBy(xpath = "//div[contains(@class,'prod-tile')]"))
   	private List<WebElement> pageItemsCount;
+	
 
 	public List<WebElement> getPageItemsCount() {
 		return pageItemsCount;
@@ -156,9 +174,18 @@ public class SearchPage {
 		}
 	}
 	
-	
-	
+	/*public void compare() {
+		if(int itemCount <= 48) {
+			System.out.println("Tescase successfully Passed");
+		}
+		else
+		{
+			System.out.println("Testcase Failed");
+		}
+		}*/
 	}
+	
+	
 	
 	
 

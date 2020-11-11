@@ -61,13 +61,8 @@ import org.testng.annotations.Test;
 		    ExtentTestManager.getTest().log(Status.PASS, "Step 6  : Successfully Clicked on " + datatable.get("ViewValue")+ "from the view dropdown");
 		   
 		   
-		    ExtentTestManager.getTest().log(Status.PASS, "Step 7 : Total No.of items displayed in the current page are: " +searchpage.getPageItemsCount().size());
-		    
-		   
-		  //  Assert.assertEquals(searchpage.getPageItemsCount().size(), Integer.parseInt(datatable.get("ViewValue")),"Total No.of items displayed in first page not equals to the Viewby option selected");
-			
-		   		   
-		 
+		    ExtentTestManager.getTest().log(Status.PASS, "Step 7 : Total No.of items displayed in the current page are: " +searchpage.getPageItemsCount().size());	   
+				 
 		     Thread.sleep(500);
 				loginPage.getUserDrodown().click();
 				Thread.sleep(500);
